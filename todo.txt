@@ -1,0 +1,15 @@
+1. Implement the combination of RetinexNet + STAR and train it on LOL (Do the simple RetinexNet-like network, but with different number of layers, and trained on LOL dataset, but make sure that images are closer to STAR by loss function, use TV-l2 to regularize)
+    https://github.com/aasharma90/RetinexNet_PyTorch.git
+    STAR: https://arxiv.org/pdf/1906.06690v1.pdf
+    RetinexNet: Deep Retinex Decomposition for Low-Light Enhancement
+2. Implement and test QSSIM loss-function
+    https://github.com/dylan-brasseur/QSSIM/tree/master/src/plugins/dbrasseur/qssim
+    https://github.com/hias234/lightfield-compression-jpeg4d-matlab/blob/master/qssim.m
+    https://www.researchgate.net/publication/51895871_Quaternion_Structural_Similarity_A_New_Quality_Index_for_Color_Images
+3. Implement quaternion-chebyshev coder-decoder and compare it with TransWeather
+    https://github.com/jeya-maria-jose/TransWeather
+4. Integrate that model for splitting using
+5. Implement an attentive fusion using the version from MPRNet
+6. Implement "lighting correction" using the method similar to LIME
+7. Implement video-version of quaternion-chebyshev
+
